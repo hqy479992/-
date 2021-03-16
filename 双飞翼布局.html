@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+           
+        }
+        .box > div{
+            /* position: relative; */
+            float: left;
+            height: 300px;
+        }
+        .mid{
+            width: 100%;
+            background-color: aquamarine;           
+
+
+        }
+        .center{
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .left{
+            width: 200px;
+            left: -200px;
+            margin-left: -100% ;
+            background-color: #ccc;
+        }
+        .right{
+            width: 200px;
+            margin-left: -200px ;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="mid">
+            <div class="center">cenwter</div>
+        </div>
+        <div class="left">left</div>
+        <div class="right">right</div>
+
+    </div>
+
+
+
+    
+    <script></script>
+</body>
+</html>
